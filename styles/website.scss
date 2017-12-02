@@ -1,0 +1,130 @@
+// animalior.com
+@import "helpers/variables";
+@import "helpers/components";
+@import "helpers/animations";
+
+.cabecalho {
+  background: $cg-1;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding: $xs 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.letreiro {
+  //background: $cg-3;
+  background: $cg-3;
+  margin-top: 54px;
+  padding: $xl 0;
+
+  @media (min-width: 1200px) {
+    margin-top: 72px;
+  }
+}
+
+.sinopse {
+  background: $cg-2;
+  padding: $xl 0;
+}
+
+.personagem-0 {
+  background: $cg-3;
+  padding: $lg 0;
+
+  @media (min-width: 992px) {
+    text-align: center;
+  }
+}
+
+.personagem-1 {
+  background: $cg-3;
+  padding: $xl 0;
+}
+
+.personagem-2 {
+  background: $cb-w;
+  padding: $xl 0;
+}
+
+.personagem-3 {
+  background: $cg-3;
+  padding: $xl 0;
+}
+
+.personagem-4 {
+  background: $cb-w;
+  padding: $xl 0;
+}
+
+.depoimentos {
+  background: $cg-3;
+  padding: $xl 0;
+
+  @media (min-width: 992px) {
+    text-align: center;
+  }
+
+  .paragrafo-2 {
+    color: $cf-1;
+    font-family: $ff-1;
+    font-size: 1.5rem;
+    font-weight: $bold;
+    line-height: $lh-3;
+  }
+
+  .paragrafo-3 {
+    color: $cf-2;
+    font-family: $ff-2;
+    font-size: .75rem;
+    font-weight: $bold;
+    line-height: $lh-3;
+  }
+}
+
+.autor {
+  background: $cg-2;
+  padding: $xl 0;
+}
+
+.cta {
+  background: $cb-d;
+  padding: $xl 0;
+
+  .titulo-2 {
+    color: white;
+  }
+
+  @media (min-width: 992px) {
+    text-align: center;
+  }
+}
+
+.compartilhe {
+  background: $cb-w;
+  padding: $xl 0;
+
+  @media (min-width: 992px) {
+    text-align: center;
+  }
+}
+
+.lista {
+  background: $cg-1;
+  padding: $xl 0;
+
+  @media (min-width: 992px) {
+    text-align: center;
+  }
+}
+
+.rodape {
+  background: $cg-1;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  padding: $xs 0;
+
+  .paragrafo-1 {
+    color: white;
+  }
+}
