@@ -137,8 +137,13 @@
   background: white;
   border: 1px solid rgba(0, 0, 0, .1);
   border-radius: $br-1;
+  height: 100%;
   padding: 2rem;
   text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
 }
 
 @media (min-width: 992px) {
@@ -154,4 +159,11 @@
   top: 0;
   width: 100%;
   z-index: 9999;
+}
+
+@media (min-width: 992px) {
+  .spacer {
+    display: block;
+    height: 100%;
+  }
 }
