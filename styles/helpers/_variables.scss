@@ -1,0 +1,69 @@
+// Variables
+
+$laranja: #F16A58;
+$amarelo: #F4F3B9;
+$ciano: #5AA5AC;
+$cinza: #E7EBE3;
+
+$azul: #4B77BE;
+$grafite: #404040;
+
+$light: #F1F4F8;
+$dark: #28324E;
+
+$sans: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+$mountains: 'Mountains of Christmas', $sans;
+$roboto: 'Roboto', $sans;
+$roboto-condensed: 'Roboto Condensed', $sans;
+
+// Colors
+
+$ca-1: $laranja;
+$ca-2: $amarelo;
+$ca-3: $ciano;
+$ca-4: $cinza;
+
+$cb-l: $light;
+$cb-d: $dark;
+
+$cf-1: $azul;
+$cf-2: $grafite;
+
+$cg-1: linear-gradient(to right, $ca-1 0%, $ca-2 100%);
+$cg-2: linear-gradient(to right, $ca-3 0%, $ca-4 100%);
+$cg-3: linear-gradient(to right, white 0%, $light 100%);
+$cg-4: linear-gradient(to right, $light 0%, white 100%);
+
+// Fonts
+
+$ff-1: $mountains;
+$ff-2: $roboto;
+
+$thin: 100;
+$extra-light: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$black: 900;
+
+$lh-1: 1;
+$lh-2: 1.2;
+$lh-3: 1.5;
+
+// Borders
+
+$bd-1: 1px solid $cb-d;
+
+$br-1: .25rem;
+
+// Spacings
+
+$xs: 1rem;
+$sm: 2rem;
+$md: 3rem;
+$lg: 4rem;
+$xl: 5rem;

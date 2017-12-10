@@ -73,7 +73,7 @@
 }
 
 .fs-bg-author {
-  background: url('../img/gianfranco.jpg');
+  background: url('../images/gianfranco.jpg');
   background-position: center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -82,15 +82,15 @@
 }
 
 .fs-bg-pttrn-01 {
-  background: url('../img/bg-pttrn-01@1x.png');
+  background: url('../images/bg-pttrn-01@1x.png');
 }
 
 .fs-bg-pttrn-02 {
-  background: url('../img/bg-pttrn-02@1x.png');
+  background: url('../images/bg-pttrn-02@1x.png');
 }
 
 .fs-bg-map {
-  background: url('../img/bg-hero@1x.png');
+  background: url('../images/bg-hero@1x.png');
   background-position: bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

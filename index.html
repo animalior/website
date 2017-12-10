@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css"/>
 
-  <link rel="stylesheet" type="text/css" href="css/animalior.css">
+  <link rel="stylesheet" type="text/css" href="styles/animalior.css">
 
   <script src="https://gumroad.com/js/gumroad.js"></script>
 
@@ -41,7 +41,7 @@
         <nav class="navbar mb-0 p-0">
           <div class="fs-flex-nav">
             <a href="">
-              <img src="img/logo@1x.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x, img/logo@4x.png 4x">
+              <img src="images/logo@1x.png" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x, images/logo@4x.png 4x">
             </a>
             <a href="#cta" class="btn fs-cta-nav my-3 float-right">Comprar Online</a>
           </div>
@@ -59,7 +59,7 @@
         <div class="col-1"></div>
         <div class="col-10 col-lg-5 mb-5 mb-lg-0">
           <p class="text-center mb-0">
-            <img src="img/capa.png" class="img-fluid">
+            <img src="images/capa.png" class="img-fluid">
           </p>
         </div>
         <div class="col-1 hidden-lg-up"></div>
@@ -86,7 +86,7 @@
       <div class="col-1"></div>
       <div class="col-10 col-lg-5 mb-5 mb-lg-0">
         <p class="text-center mb-0">
-          <img src="img/samsue@2x.png" class="img-fluid">
+          <img src="images/samsue@2x.png" class="img-fluid">
         </p>
       </div>
       <div class="col-1 hidden-lg-up"></div>
@@ -132,7 +132,7 @@
         <div class="col-1"></div>
         <div class="col-10 col-lg-4 mb-5 mb-lg-0">
           <p class="text-center text-lg-right mb-0">
-            <img src="img/pipirot@2x.png" class="img-fluid">
+            <img src="images/pipirot@2x.png" class="img-fluid">
           </p>
         </div>
         <div class="col-1"></div>
@@ -159,7 +159,7 @@
         <div class="col-1"></div>
         <div class="col-10 col-lg-4 mb-5 mb-lg-0">
           <p class="text-center text-lg-right mb-0">
-            <img src="img/mambu@2x.png" class="img-fluid">
+            <img src="images/mambu@2x.png" class="img-fluid">
           </p>
         </div>
         <div class="col-1"></div>
@@ -187,7 +187,7 @@
         <div class="col-1"></div>
         <div class="col-10 col-lg-4 mb-5 mb-lg-0">
           <p class="text-center text-lg-right mb-0">
-            <img src="img/crabob@2x.png" class="img-fluid">
+            <img src="images/crabob@2x.png" class="img-fluid">
           </p>
         </div>
         <div class="col-1"></div>
@@ -218,7 +218,7 @@
         <div class="col-1"></div>
         <div class="col-10 col-lg-4 mb-5 mb-lg-0">
           <p class="text-center text-lg-right mb-0">
-            <img src="img/dolfi@2x.png" class="img-fluid">
+            <img src="images/dolfi@2x.png" class="img-fluid">
           </p>
         </div>
         <div class="col-1"></div>
@@ -339,7 +339,7 @@
       <div class="col-1"></div>
       <div class="col-10 col-lg-4 mb-5 mb-lg-0">
         <p class="text-center text-lg-right mb-0">
-          <img src="img/author@2x.png" class="img-fluid rounded-circle">
+          <img src="images/author@2x.png" class="img-fluid rounded-circle">
         </p>
       </div>
       <div class="col-1"></div>
@@ -491,25 +491,33 @@
     });
 </script>
 
-<!-- Google Analytics -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  <!-- Global site tag (gtag.scripts) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103689161-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-103689161-1');
+  </script>
 
-    ga('create', 'UA-103689161-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-<!-- Facebook Pixel -->
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '380787819034104');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=380787819034104&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
 
 </body>
 </html>

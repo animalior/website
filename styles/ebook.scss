@@ -1,0 +1,26 @@
+// animalior.com
+@import "helpers/variables";
+@import "helpers/components";
+@import "helpers/animations";
+
+@media (min-width: 992px) {
+  html, body {
+    height: 100%;
+  }
+}
+
+.letreiro {
+  background: $cg-1;
+  height: 100%;
+  padding: $xl 0;
+
+  .titulo-1 {
+    color: $cb-d;
+  }
+}
+
+.letreiro-flex {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
