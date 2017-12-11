@@ -1,0 +1,314 @@
+.titulo-1 {
+  color: #4B77BE;
+  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2; }
+  @media (min-width: 992px) {
+    .titulo-1 {
+      font-size: 2rem; } }
+
+.titulo-2 {
+  color: #4B77BE;
+  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.5; }
+  @media (min-width: 992px) {
+    .titulo-2 {
+      font-size: 1.75rem; } }
+
+.paragrafo-1 {
+  color: #404040;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.paragrafo-small {
+  font-size: .75rem; }
+
+.botao {
+  background: #F16A58;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: .75rem 1.5rem;
+  text-align: center; }
+  .botao:hover {
+    color: white;
+    text-decoration: none; }
+  @media (min-width: 992px) {
+    .botao {
+      font-size: 1.5rem; } }
+
+.botao-vazado {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  color: #4B77BE;
+  display: inline-block;
+  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: .75rem 1.5rem;
+  text-align: center; }
+  .botao-vazado:hover {
+    color: #4B77BE;
+    text-decoration: none; }
+  @media (min-width: 992px) {
+    .botao-vazado {
+      font-size: 1.5rem; } }
+
+.botao-block {
+  display: block; }
+
+.botao-small {
+  font-size: 1rem;
+  padding: .5rem 1rem; }
+
+.carta {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  padding: 2rem;
+  text-align: left; }
+
+.imagem-fluid {
+  max-width: 80%; }
+
+@media (min-width: 992px) {
+  .flex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between; } }
+/* Animation Fade In */
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.fadein-animate {
+  -webkit-animation-name: fadein;
+  -moz-animation-name: fadein;
+  -o-animation-name: fadein;
+  animation-name: fadein;
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+  -o-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation-timing-function: ease-in;
+  -o-animation-timing-function: ease-in;
+  animation-timing-function: ease-in; }
+
+/* Animation Opacity */
+@keyframes opacity {
+  3% {
+    opacity: 0; }
+  6% {
+    opacity: 1; }
+  9% {
+    opacity: 0; }
+  12% {
+    opacity: 1; } }
+.opacity-animate {
+  -webkit-animation-name: opacity;
+  -moz-animation-name: opacity;
+  -o-animation-name: opacity;
+  animation-name: opacity;
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear; }
+
+/* Animation Shake */
+@keyframes shake {
+  3% {
+    transform: translate3d(-16px, 0, 0); }
+  6% {
+    transform: translate3d(16px, 0, 0); }
+  9% {
+    transform: translate3d(-8px, 0, 0); }
+  12% {
+    transform: translate3d(8px, 0, 0); }
+  15% {
+    transform: translate3d(0, 0, 0); } }
+.shake-animate {
+  -webkit-animation-name: shake;
+  -moz-animation-name: shake;
+  -o-animation-name: shake;
+  animation-name: shake;
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear; }
+
+/* Animation Scale */
+@keyframes scale {
+  3% {
+    transform: scale(1.1); }
+  6% {
+    transform: scale(1); }
+  9% {
+    transform: scale(1.05); }
+  12% {
+    transform: scale(1); } }
+.scale-animate {
+  -webkit-animation-name: scale;
+  -moz-animation-name: scale;
+  -o-animation-name: scale;
+  animation-name: scale;
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear; }
+
+.cabecalho {
+  background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+
+.letreiro {
+  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
+  margin-top: 54px;
+  padding: 5rem 0; }
+  @media (min-width: 1200px) {
+    .letreiro {
+      margin-top: 72px; } }
+
+.sinopse {
+  background: linear-gradient(to right, #5AA5AC 0%, #E7EBE3 100%);
+  padding: 5rem 0; }
+
+.personagem-0 {
+  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
+  padding: 4rem 0; }
+  @media (min-width: 992px) {
+    .personagem-0 {
+      text-align: center; } }
+
+.personagem-1 {
+  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
+  padding: 5rem 0; }
+
+.personagem-2 {
+  background: white;
+  padding: 5rem 0; }
+
+.personagem-3 {
+  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
+  padding: 5rem 0; }
+
+.personagem-4 {
+  background: white;
+  padding: 5rem 0; }
+
+.depoimentos {
+  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
+  padding: 5rem 0; }
+  @media (min-width: 992px) {
+    .depoimentos {
+      text-align: center; } }
+  .depoimentos .paragrafo-2 {
+    color: #4B77BE;
+    font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5; }
+  .depoimentos .paragrafo-3 {
+    color: #404040;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.5; }
+
+.autor {
+  background: linear-gradient(to right, #5AA5AC 0%, #E7EBE3 100%);
+  padding: 5rem 0; }
+
+.cta {
+  background: #28324E;
+  padding: 5rem 0; }
+  .cta .titulo-2 {
+    color: white; }
+  @media (min-width: 992px) {
+    .cta {
+      text-align: center; } }
+
+.compartilhe {
+  background: white;
+  padding: 5rem 0; }
+  @media (min-width: 992px) {
+    .compartilhe {
+      text-align: center; } }
+
+.lista {
+  background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
+  padding: 5rem 0; }
+  @media (min-width: 992px) {
+    .lista {
+      text-align: center; } }
+
+.rodape {
+  background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 0; }
+  .rodape .paragrafo-1 {
+    color: white; }
+
+/*# sourceMappingURL=website.css.map */
