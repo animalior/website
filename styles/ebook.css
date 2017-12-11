@@ -134,116 +134,19 @@
   .spacer {
     display: block;
     height: 100%; } }
-.cabecalho {
-  background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1rem 0; }
-
+@media (min-width: 992px) {
+  html, body {
+    height: 100%; } }
 .letreiro {
-  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
-  padding: 5rem 0; }
-
-.sinopse {
-  background: linear-gradient(to right, #5AA5AC 0%, #E7EBE3 100%);
-  padding: 5rem 0; }
-
-.personagem-0 {
-  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
-  padding: 4rem 0 0 0; }
-  @media (min-width: 992px) {
-    .personagem-0 {
-      text-align: center; } }
-
-.personagem-1 {
-  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
-
-.personagem-2 {
-  background: linear-gradient(to right, #F1F4F8 0%, white 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
-
-.personagem-3 {
-  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
-
-.personagem-4 {
-  background: linear-gradient(to right, #F1F4F8 0%, white 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
-
-.depoimentos {
-  background: linear-gradient(to right, white 0%, #F1F4F8 100%);
-  padding: 5rem 0; }
-  @media (min-width: 992px) {
-    .depoimentos {
-      text-align: center; } }
-
-.autor {
-  background: linear-gradient(to right, #5AA5AC 0%, #E7EBE3 100%);
-  padding: 5rem 0; }
-
-.cta {
-  background: #28324E;
-  padding: 10rem 0; }
-  .cta .titulo-2 {
-    color: white; }
-  @media (min-width: 992px) {
-    .cta {
-      text-align: center; } }
-
-.lista {
-  background: linear-gradient(to right, #5AA5AC 0%, #E7EBE3 100%);
-  padding: 5rem 0; }
-  .lista .texto-1 {
-    color: white; }
-  @media (min-width: 992px) {
-    .lista {
-      text-align: center; } }
-
-.rodape {
   background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1rem 0; }
-  .rodape .texto-1 {
-    color: white; }
+  height: 100%;
+  padding: 5rem 0; }
+  .letreiro .titulo-1 {
+    color: #28324E; }
 
-.email {
-  background: white !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  border-radius: 0.25rem !important;
-  color: #404040 !important;
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 400 !important;
-  height: auto !important;
-  padding: 1rem !important; }
-  .email::placeholder {
-    color: #4B77BE !important; }
+.letreiro-flex {
+  align-items: center;
+  display: flex;
+  height: 100%; }
 
-.button {
-  background: #F16A58 !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  border-radius: 0.25rem !important;
-  box-sizing: border-box !important;
-  color: white !important;
-  display: block !important;
-  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 700 !important;
-  height: auto !important;
-  padding: .75rem 1.5rem !important;
-  transition: 200ms !important;
-  text-align: center !important; }
-  .button:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2) !important;
-    color: white !important;
-    text-decoration: none !important;
-    transition: 200ms !important; }
-  @media (min-width: 992px) {
-    .button {
-      display: inline-block !important; } }
-
-/*# sourceMappingURL=website.css.map */
+/*# sourceMappingURL=ebook.css.map */

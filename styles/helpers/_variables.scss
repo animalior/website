@@ -24,7 +24,6 @@ $ca-2: $amarelo;
 $ca-3: $ciano;
 $ca-4: $cinza;
 
-$cb-w: white;
 $cb-l: $light;
 $cb-d: $dark;
 
@@ -34,6 +33,7 @@ $cf-2: $grafite;
 $cg-1: linear-gradient(to right, $ca-1 0%, $ca-2 100%);
 $cg-2: linear-gradient(to right, $ca-3 0%, $ca-4 100%);
 $cg-3: linear-gradient(to right, white 0%, $light 100%);
+$cg-4: linear-gradient(to right, $light 0%, white 100%);
 
 // Fonts
 
