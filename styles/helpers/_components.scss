@@ -1,5 +1,5 @@
 .titulo-1 {
-    color: $azul;
+    color: $cf-1;
     font-family: $ff-1;
     font-size: 1.5rem;
     font-weight: $bold;
@@ -11,7 +11,7 @@
 }
 
 .titulo-2 {
-    color: $azul;
+    color: $cf-1;
     font-family: $ff-1;
     font-size: 1.75rem;
     font-weight: $bold;
@@ -23,7 +23,7 @@
 }
 
 .titulo-3 {
-    color: $azul;
+    color: $cf-1;
     font-family: $ff-1;
     font-size: 1.25rem;
     font-weight: $bold;
@@ -50,7 +50,7 @@
 }
 
 .citacao-autor {
-    color: $azul;
+    color: $cf-1;
     font-family: $ff-1;
     font-size: 1.5rem;
     font-weight: $bold;
@@ -75,7 +75,7 @@
     font-family: $ff-1;
     font-size: 1rem;
     font-weight: $bold;
-    padding: .75rem 3rem;
+    padding: .75rem 1.5rem;
     transition: 200ms;
     text-align: center;
 
@@ -89,7 +89,7 @@
 
     @media (min-width: 992px) {
         display: inline-block;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -98,32 +98,32 @@
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: $br-1;
     box-sizing: border-box;
-    color: $azul;
+    color: $cf-1;
     display: block;
     font-family: $ff-1;
     font-size: 1rem;
     font-weight: $bold;
-    padding: .75rem 3rem;
+    padding: .75rem 1.5rem;
     transition: 200ms;
     text-align: center;
 
     &:hover {
         //background: lighten($ca-2, 5%);
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
-        color: $azul;
+        color: $cf-1;
         text-decoration: none;
         transition: 200ms;
     }
 
     @media (min-width: 992px) {
         display: inline-block;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 }
 
 .botao-small {
     font-size: 1rem;
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
 }
 
 .imagem-1 {
