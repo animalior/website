@@ -4,151 +4,122 @@
 @import "helpers/animations";
 
 .cabecalho {
-  background: $cg-1;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding: $xs 0;
+    background: $cg-1;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: $xs 0;
 }
 
 .letreiro {
-  background: $cg-3;
-  //background: $cg-1;
-  padding: $xl 0;
+    background: white;
+    background: url(../images/bg-hero@1x.png);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
 
-  .titulo-1 {
-    //color: white;
-  }
+    //background: $cg-1;
+    padding: $xl 0;
+
+    .titulo-1 {
+        //color: white;
+    }
 }
 
-.sinopse {
-  background: $cg-2;
-  padding: $xl 0;
+.sinopse01 {
+    background: url(../images/bg-pttrn-01@1x.png);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: $xl 0;
 }
 
-.personagem-0 {
-  background: $cg-3;
-  padding: $lg 0 0 0;
-
-  @media (min-width: 992px) {
-    text-align: center;
-  }
+.sinopse02 {
+    background: url(../images/bg-pttrn-01@1x.png);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: $xl 0;
 }
 
-.personagem-1 {
-  background: $cg-3;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding: $xl 0;
-}
-
-.personagem-2 {
-  background: $cg-4;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding: $xl 0;
-}
-
-.personagem-3 {
-  background: $cg-3;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding: $xl 0;
-}
-
-.personagem-4 {
-  background: $cg-4;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding: $xl 0;
-}
-
-.depoimentos {
-  background: $cg-3;
-  padding: $xl 0;
-
-  @media (min-width: 992px) {
-    text-align: center;
-  }
-}
-
-.autor {
-  background: $cg-2;
-  padding: $xl 0;
+.sinopse03 {
+    background: url(../images/bg-pttrn-01@1x.png);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: $xl 0;
 }
 
 .cta {
-  background: $cb-d;
-  padding: 10rem 0;
+    background: $cg-2;
+    padding: $xl 0;
 
-  .titulo-2 {
-    color: white;
-  }
+    .titulo-2 {
+        color: white;
+    }
 
-  @media (min-width: 992px) {
-    text-align: center;
-  }
+    @media (min-width: 992px) {
+        text-align: center;
+    }
 }
 
-.lista {
-  background: $cg-2;
-  padding: $xl 0;
+.depoimentos {
+    background: url(../images/bg-pttrn-01@1x.png);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: $xl 0;
 
-  .texto-1 {
-    color: white;
-  }
+    @media (min-width: 992px) {
+        text-align: center;
+    }
+}
 
-  @media (min-width: 992px) {
-    text-align: center;
-  }
+.autor {
+    background: url(../images/bg-pttrn-01@1x.png);
+    padding: $xl 0;
 }
 
 .rodape {
-  background: $cg-1;
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  padding: $xs 0;
+    background: $cg-1;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding: $xs 0;
 
-  .texto-1 {
-    color: white;
-  }
+    .texto-1 {
+        color: white;
+    }
 }
 
 .email {
-  background: white !important;
-  border: 1px solid rgba(0, 0, 0, .1) !important;
-  border-radius: $br-1 !important;
-  color: $cf-2 !important;
-  font-family: $ff-2 !important;
-  font-size: 1rem !important;
-  font-weight: $regular !important;
-  height: auto !important;
-  padding: 1rem !important;
+    background: white !important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    border-radius: $br-1 !important;
+    color: $cf-2 !important;
+    font-family: $ff-2 !important;
+    font-size: 1rem !important;
+    font-weight: $regular !important;
+    height: auto !important;
+    padding: 1rem !important;
 
-  &::placeholder {
-    color: $cf-1 !important;
-  }
+    &::placeholder {
+        color: $cf-1 !important;
+    }
 }
 
 .button {
-  background: $ca-1 !important;
-  border: 1px solid rgba(0, 0, 0, .1) !important;
-  border-radius: $br-1 !important;
-  box-sizing: border-box !important;
-  color: white !important;
-  display: block !important;
-  font-family: $ff-1 !important;
-  font-size: 1rem !important;
-  font-weight: $bold !important;
-  height: auto !important;
-  padding: .75rem 1.5rem !important;
-  transition: 200ms !important;
-  text-align: center !important;
-
-  &:hover {
-    //background: lighten($ca-1, 5%) !important;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2) !important;
+    background: $ca-1 !important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    border-radius: $br-1 !important;
+    box-sizing: border-box !important;
     color: white !important;
-    text-decoration: none !important;
+    display: block !important;
+    font-family: $ff-1 !important;
+    font-size: 1rem !important;
+    font-weight: $bold !important;
+    height: auto !important;
+    padding: .75rem 1.5rem !important;
     transition: 200ms !important;
-  }
+    text-align: center !important;
 
-  @media (min-width: 992px) {
-    display: inline-block !important;
-  }
+    &:hover {
+        //background: lighten($ca-1, 5%) !important;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2) !important;
+        color: white !important;
+        text-decoration: none !important;
+        transition: 200ms !important;
+    }
+
+    @media (min-width: 992px) {
+        display: inline-block !important;
+    }
 }
 
 //@import "helpers/palette-2";

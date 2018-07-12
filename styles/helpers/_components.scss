@@ -1,169 +1,168 @@
 .titulo-1 {
-  color: $cf-1;
-  font-family: $ff-1;
-  font-size: 1.5rem;
-  font-weight: $bold;
-  line-height: $lh-2;
+    color: $azul;
+    font-family: $ff-1;
+    font-size: 1.5rem;
+    font-weight: $bold;
+    line-height: $lh-2;
 
-  @media (min-width: 992px) {
-    font-size: 2rem;
-  }
+    @media (min-width: 992px) {
+        font-size: 2rem;
+    }
 }
 
 .titulo-2 {
-  color: $cf-1;
-  font-family: $ff-1;
-  font-size: 1.75rem;
-  font-weight: $bold;
-  line-height: $lh-2;
-
-  @media (min-width: 992px) {
+    color: $azul;
+    font-family: $ff-1;
     font-size: 1.75rem;
-  }
+    font-weight: $bold;
+    line-height: $lh-2;
+
+    @media (min-width: 992px) {
+        font-size: 1.75rem;
+    }
 }
 
 .titulo-3 {
-  color: $cf-1;
-  font-family: $ff-1;
-  font-size: 1.25rem;
-  font-weight: $bold;
-  line-height: $lh-3;
+    color: $azul;
+    font-family: $ff-1;
+    font-size: 1.25rem;
+    font-weight: $bold;
+    line-height: $lh-3;
 
-  @media (min-width: 992px) {
-    font-size: 1.75rem;
-  }
+    @media (min-width: 992px) {
+        font-size: 1.75rem;
+    }
 }
 
 .texto-1 {
-  color: $cf-2;
-  font-family: $ff-2;
-  font-weight: $regular;
-  line-height: $lh-3;
-  font-size: 1rem;
-  @media (min-width: 992px) {
+    color: $cf-2;
+    font-family: $ff-2;
+    font-weight: $regular;
+    line-height: $lh-3;
+    font-size: 1rem;
 
-  }
+    @media (min-width: 992px) {
+    }
 }
 
 .texto-small {
-  font-size: .75rem;
+    font-size: .75rem;
 }
 
 .citacao-autor {
-  color: $cf-1;
-  font-family: $ff-1;
-  font-size: 1.5rem;
-  font-weight: $bold;
-  line-height: $lh-3;
+    color: $azul;
+    font-family: $ff-1;
+    font-size: 1.5rem;
+    font-weight: $bold;
+    line-height: $lh-3;
 }
 
 .citacao-descricao {
-  color: $cf-2;
-  font-family: $ff-2;
-  font-size: .75rem;
-  font-weight: $bold;
-  line-height: $lh-3;
+    color: $cf-2;
+    font-family: $ff-2;
+    font-size: .75rem;
+    font-weight: $bold;
+    line-height: $lh-3;
 }
 
 .botao-1 {
-  background: $ca-1;
-  border: 1px solid rgba(0, 0, 0, .1);
-  border-radius: $br-1;
-  box-sizing: border-box;
-  color: white;
-  display: block;
-  font-family: $ff-1;
-  font-size: 1rem;
-  font-weight: $bold;
-  padding: .75rem 1.5rem;
-  transition: 200ms;
-  text-align: center;
-
-  &:hover {
-    //background: lighten($ca-1, 5%);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    background: $ca-1;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: $br-1;
+    box-sizing: border-box;
     color: white;
-    text-decoration: none;
+    display: block;
+    font-family: $ff-1;
+    font-size: 1rem;
+    font-weight: $bold;
+    padding: .75rem 3rem;
     transition: 200ms;
-  }
+    text-align: center;
 
-  @media (min-width: 992px) {
-    display: inline-block;
-    font-size: 1.5rem;
-  }
+    &:hover {
+        //background: lighten($ca-1, 5%);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+        color: white;
+        text-decoration: none;
+        transition: 200ms;
+    }
+
+    @media (min-width: 992px) {
+        display: inline-block;
+        font-size: 1.25rem;
+    }
 }
 
 .botao-2 {
-  background: $ca-2;
-  border: 1px solid rgba(0, 0, 0, .1);
-  border-radius: $br-1;
-  box-sizing: border-box;
-  color: $cf-1;
-  display: block;
-  font-family: $ff-1;
-  font-size: 1rem;
-  font-weight: $bold;
-  padding: .75rem 1.5rem;
-  transition: 200ms;
-  text-align: center;
-
-  &:hover {
-    //background: lighten($ca-2, 5%);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
-    color: $cf-1;
-    text-decoration: none;
+    background: $ca-2;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: $br-1;
+    box-sizing: border-box;
+    color: $azul;
+    display: block;
+    font-family: $ff-1;
+    font-size: 1rem;
+    font-weight: $bold;
+    padding: .75rem 3rem;
     transition: 200ms;
-  }
+    text-align: center;
 
-  @media (min-width: 992px) {
-    display: inline-block;
-    font-size: 1.5rem;
-  }
+    &:hover {
+        //background: lighten($ca-2, 5%);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+        color: $azul;
+        text-decoration: none;
+        transition: 200ms;
+    }
+
+    @media (min-width: 992px) {
+        display: inline-block;
+        font-size: 1.25rem;
+    }
 }
 
 .botao-small {
-  font-size: 1rem;
-  padding: .5rem 1rem;
+    font-size: 1rem;
+    padding: .5rem 2rem;
 }
 
 .imagem-1 {
-  display: block;
-  height: auto;
-  margin: 0 auto;
-  max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .carta {
-  background: white;
-  border: 1px solid rgba(0, 0, 0, .1);
-  border-radius: $br-1;
-  height: 100%;
-  padding: 2rem;
-  text-align: left;
-
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: $br-1;
+    height: 100%;
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
 }
 
 @media (min-width: 992px) {
-  .flex {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
+    .flex {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .fixed {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 @media (min-width: 992px) {
-  .spacer {
-    display: block;
-    height: 100%;
-  }
+    .spacer {
+        display: block;
+        height: 100%;
+    }
 }
