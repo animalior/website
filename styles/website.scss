@@ -10,7 +10,9 @@
 }
 
 .letreiro {
-    background: $cg-3;
+    background: white;
+    background: url(../images/bg-hero@1x.png);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
 
     //background: $cg-1;
     padding: $xl 0;
@@ -20,61 +22,27 @@
     }
 }
 
-.sinopse {
-    background: $cg-2;
-    padding: $xl 0;
-}
-
-.personagem-0 {
-    background: $cg-3;
-    padding: $lg 0 0 0;
-
-    @media (min-width: 992px) {
-        text-align: center;
-    }
-}
-
-.personagem-1 {
-    background: $cg-3;
+.sinopse01 {
+    background: url(../images/bg-pttrn-01@1x.png);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding: $xl 0;
 }
 
-.personagem-2 {
-    background: $cg-4;
+.sinopse02 {
+    background: url(../images/bg-pttrn-01@1x.png);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding: $xl 0;
 }
 
-.personagem-3 {
-    background: $cg-3;
+.sinopse03 {
+    background: url(../images/bg-pttrn-01@1x.png);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
-    padding: $xl 0;
-}
-
-.personagem-4 {
-    background: $cg-4;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    padding: $xl 0;
-}
-
-.depoimentos {
-    background: $cg-3;
-    padding: $xl 0;
-
-    @media (min-width: 992px) {
-        text-align: center;
-    }
-}
-
-.autor {
-    background: $cg-2;
     padding: $xl 0;
 }
 
 .cta {
-    background: $cb-d;
-    padding: 10rem 0;
+    background: $cg-2;
+    padding: $xl 0;
 
     .titulo-2 {
         color: white;
@@ -85,17 +53,19 @@
     }
 }
 
-.lista {
-    background: $cg-2;
+.depoimentos {
+    background: url(../images/bg-pttrn-01@1x.png);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding: $xl 0;
-
-    .texto-1 {
-        color: white;
-    }
 
     @media (min-width: 992px) {
         text-align: center;
     }
+}
+
+.autor {
+    background: url(../images/bg-pttrn-01@1x.png);
+    padding: $xl 0;
 }
 
 .rodape {
@@ -153,14 +123,3 @@
 }
 
 //@import "helpers/palette-2";
-.sinopse-2 {
-    background: $cg-1;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    padding: $xl 0;
-}
-
-.download {
-    background: $cg-2;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    padding: $xl 0;
-}
