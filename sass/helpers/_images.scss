@@ -1,5 +1,9 @@
 // images.scss
 
+.logo {
+    text-shadow: 1px 1px $dark;
+}
+
 .cover {
     // border: 1px solid $dark;
     box-shadow: 3px 3px $dark;

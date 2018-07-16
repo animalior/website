@@ -1,34 +1,34 @@
 .titulo-1 {
   color: #F16A58;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 1.2;
   text-shadow: 1px 1px #28324E; }
   @media (min-width: 992px) {
     .titulo-1 {
-      font-size: 32px; } }
+      font-size: 40px; } }
 
 .titulo-2 {
   color: #F16A58;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
   text-shadow: 1px 1px #28324E; }
   @media (min-width: 992px) {
     .titulo-2 {
-      font-size: 24px; } }
+      font-size: 32px; } }
 
 .texto-1 {
   color: #28324E;
   font-family: "Karla", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  font-size: 14px; }
+  font-size: 16px; }
   @media (min-width: 992px) {
     .texto-1 {
-      font-size: 16px; } }
+      font-size: 20px; } }
 
 .texto-small {
   font-size: 12px; }
@@ -39,54 +39,62 @@
 .citacao-autor {
   color: #F16A58;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
   text-shadow: 1px 1px #28324E; }
   @media (min-width: 992px) {
     .citacao-autor {
-      font-size: 20px; } }
+      font-size: 24px; } }
 
 .citacao-descricao {
   color: #4B77BE;
   font-family: "Karla", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.5; }
   @media (min-width: 992px) {
     .citacao-descricao {
-      font-size: 12px; } }
+      font-size: 14px; } }
 
 .botao {
   border-radius: 0;
-  display: block;
+  display: inline-block;
   font-family: "Karla", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   margin: 0 auto;
-  padding: 12px 24px;
+  padding: 16px 32px;
   transition: 200ms;
   text-align: center; }
   @media (min-width: 992px) {
     .botao {
       font-size: 20px; } }
   .botao:hover {
-    background-color: #F4F3B9;
-    color: #28324E;
     text-decoration: none; }
   .botao-1 {
     background-color: #F16A58;
     border: 1px solid #28324E;
     box-shadow: 3px 3px #28324E;
     color: white; }
+    .botao-1:hover {
+      background-color: #4B77BE;
+      color: white; }
   .botao-2 {
     background-color: white;
     border: 1px solid #28324E;
     box-shadow: 3px 3px #28324E;
-    color: #F16A58; }
+    color: #28324E; }
+    .botao-2:hover {
+      background-color: #F4F3B9;
+      color: #28324E; }
   .botao-small {
-    font-size: 1rem;
-    padding: .5rem 2rem; }
+    font-size: 16px;
+    max-width: 280px;
+    width: 100%; }
+
+.logo {
+  text-shadow: 1px 1px #28324E; }
 
 .cover {
   box-shadow: 3px 3px #28324E;
@@ -105,7 +113,7 @@
   background: white;
   box-shadow: 3px 3px #28324E;
   height: 100%;
-  padding: 32px 24px;
+  padding: 32px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -120,68 +128,62 @@
     align-items: center;
     display: flex;
     justify-content: space-between; } }
-.cabecalho {
-  background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
-  padding: 16px 0; }
-
-.letreiro {
-  background: url(../images/cover-masonry.png), linear-gradient(to right, #f8fcff 0%, #ffffff 100%);
+.hero {
+  background: url(../images/cover-masonry.png), linear-gradient(to right, #f0f8ff 0%, #ffffff 100%);
   background-size: cover;
   padding: 64px 0; }
   @media (min-width: 992px) {
-    .letreiro {
+    .hero {
       padding: 160px 0; } }
 
-.sinopse01 {
+.book-01 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   padding: 64px 0; }
   @media (min-width: 992px) {
-    .sinopse01 {
+    .book-01 {
       padding: 96px 0; } }
 
-.sinopse02 {
+.book-02 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   padding: 64px 0; }
   @media (min-width: 992px) {
-    .sinopse02 {
+    .book-02 {
       padding: 96px 0; } }
 
-.sinopse03 {
+.book-03 {
   padding: 64px 0; }
   @media (min-width: 992px) {
-    .sinopse03 {
+    .book-03 {
       padding: 96px 0; } }
 
 .cta {
-  background: linear-gradient(to right, #5AA5AC 0%, #E7EBE3 100%);
+  background: #4B77BE;
   padding: 64px 0; }
-  .cta .titulo-2 {
+  .cta .titulo-1 {
     color: white; }
   @media (min-width: 992px) {
     .cta {
-      padding: 96px 0;
-      text-align: center; } }
-
-.depoimentos {
-  background: linear-gradient(to right, #f8fcff 0%, #ffffff 100%);
-  padding: 64px 0; }
-  @media (min-width: 992px) {
-    .depoimentos {
-      padding: 96px 0;
-      text-align: center; } }
-
-.autor {
-  padding: 64px 0; }
-  @media (min-width: 992px) {
-    .autor {
       padding: 96px 0; } }
 
-.rodape {
-  background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
+.testimonials {
+  background: linear-gradient(to right, #f0f8ff 0%, #ffffff 100%);
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .testimonials {
+      padding: 96px 0;
+      text-align: center; } }
+
+.author {
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .author {
+      padding: 96px 0; } }
+
+.footer {
+  background: #4B77BE;
   border-top: 1px solid rgba(0, 0, 0, 0.16);
   padding: 16px 0; }
-  .rodape .texto-1 {
+  .footer .texto-1 {
     color: white; }
 
 /*# sourceMappingURL=website.css.map */

@@ -2,12 +2,12 @@
 
 .botao {
     border-radius: 0;
-    display: block;
+    display: inline-block;
     font-family: $body;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: $bold;
     margin: 0 auto;
-    padding: 12px 24px;
+    padding: 16px 32px;
     transition: 200ms;
     text-align: center;
     // text-transform: uppercase;
@@ -17,8 +17,6 @@
     }
 
     &:hover {
-        background-color: $amarelo;
-        color: $dark;
         text-decoration: none;
     }
 
@@ -29,7 +27,8 @@
         color: white;
 
         &:hover {
-
+            background-color: $azul;
+            color: white;
         }
     }
 
@@ -37,15 +36,21 @@
         background-color: white;
         border: 1px solid $dark;
         box-shadow: 3px 3px $dark;
-        color: $laranja;
+        color: $dark;
 
         &:hover {
-
+            background-color: $amarelo;
+            color: $dark;
         }
     }
 
     &-small {
-        font-size: 1rem;
-        padding: .5rem 2rem;
+        font-size: 16px;
+        max-width: 280px;
+        width: 100%;
+
+        @media (min-width: 992px) {
+
+        }
     }
 }

@@ -6,13 +6,7 @@
 @import "helpers/images";
 @import "helpers/components";
 
-.cabecalho {
-    background: $gradient-1;
-    border-bottom: 1px solid rgba(0, 0, 0, .16);
-    padding: 16px 0;
-}
-
-.letreiro {
+.hero {
     background: url(../images/cover-masonry.png), $gradient-3;
     background-size: cover;
     padding: 64px 0;
@@ -22,7 +16,7 @@
     }
 }
 
-.sinopse01 {
+.book-01 {
     border-bottom: 1px solid rgba(0, 0, 0, .04);
     padding: 64px 0;
 
@@ -31,7 +25,7 @@
     }
 }
 
-.sinopse02 {
+.book-02 {
     border-bottom: 1px solid rgba(0, 0, 0, .04);
     padding: 64px 0;
 
@@ -40,7 +34,7 @@
     }
 }
 
-.sinopse03 {
+.book-03 {
     // border-bottom: 1px solid rgba(0, 0, 0, .04);
     padding: 64px 0;
 
@@ -50,20 +44,19 @@
 }
 
 .cta {
-    background: $gradient-2;
+    background: $azul;
     padding: 64px 0;
 
-    .titulo-2 {
+    .titulo-1 {
         color: white;
     }
 
     @media (min-width: 992px) {
         padding: 96px 0;
-        text-align: center;
     }
 }
 
-.depoimentos {
+.testimonials {
     background: $gradient-3;
     padding: 64px 0;
 
@@ -73,7 +66,7 @@
     }
 }
 
-.autor {
+.author {
     padding: 64px 0;
 
     @media (min-width: 992px) {
@@ -81,8 +74,8 @@
     }
 }
 
-.rodape {
-    background: $gradient-1;
+.footer {
+    background: $azul;
     border-top: 1px solid rgba(0, 0, 0, .16);
     padding: 16px 0;
 
