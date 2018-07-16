@@ -3,7 +3,7 @@
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
   text-shadow: 1px 1px #28324E; }
   @media (min-width: 992px) {
     .titulo-1 {
@@ -14,7 +14,7 @@
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
   text-shadow: 1px 1px #28324E; }
   @media (min-width: 992px) {
     .titulo-2 {
@@ -24,7 +24,7 @@
   color: #28324E;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 16px; }
   @media (min-width: 992px) {
     .texto-1 {
@@ -63,6 +63,7 @@
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 800;
+  line-height: 1;
   margin: 0 auto;
   padding: 16px 32px;
   transition: 200ms;
