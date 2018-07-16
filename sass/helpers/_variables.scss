@@ -2,18 +2,25 @@
 
 $laranja: #F16A58;
 $amarelo: #F4F3B9;
+
 $ciano: #5AA5AC;
 $cinza: #E7EBE3;
+
 $azul: #4B77BE;
 $grafite: #404040;
+
 $light: #F1F4F8;
 $dark: #28324E;
 
 $sans: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $mountains: 'Mountains of Christmas', $sans;
+$karla: 'Karla', $sans;
 $roboto: 'Roboto', $sans;
 $roboto-condensed: 'Roboto Condensed', $sans;
 $work-sans: 'Work Sans', $sans;
+
+$heading: $mountains;
+$body: $karla;
 
 // Colors
 $ca-1: $laranja;
@@ -28,6 +35,10 @@ $cg-1: linear-gradient(to right, $ca-1 0%, $ca-2 100%);
 $cg-2: linear-gradient(to right, $ca-3 0%, $ca-4 100%);
 $cg-3: linear-gradient(to right, white 0%, $light 100%);
 $cg-4: linear-gradient(to right, $light 0%, white 100%);
+
+$gradient-1: linear-gradient(to right, $laranja 0%, $amarelo 100%);
+$gradient-2: linear-gradient(to right, $ciano 0%, $cinza 100%);
+$gradient-3: linear-gradient(to right, #f8fcff 0%, #ffffff 100%);
 
 // Fonts
 $ff-1: $mountains;

@@ -1,226 +1,187 @@
 .titulo-1 {
-  color: #4B77BE;
+  color: #F16A58;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: 700;
-  line-height: 1.2; }
+  line-height: 1.2;
+  text-shadow: 1px 1px #28324E; }
   @media (min-width: 992px) {
     .titulo-1 {
-      font-size: 2rem; } }
+      font-size: 32px; } }
 
 .titulo-2 {
-  color: #4B77BE;
+  color: #F16A58;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1.75rem;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 1.2; }
+  line-height: 1.2;
+  text-shadow: 1px 1px #28324E; }
   @media (min-width: 992px) {
     .titulo-2 {
-      font-size: 1.75rem; } }
-
-.titulo-3 {
-  color: #4B77BE;
-  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.5; }
-  @media (min-width: 992px) {
-    .titulo-3 {
-      font-size: 1.75rem; } }
+      font-size: 24px; } }
 
 .texto-1 {
-  color: #404040;
-  font-family: "Work Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #28324E;
+  font-family: "Karla", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  font-size: 1rem; }
+  font-size: 14px; }
+  @media (min-width: 992px) {
+    .texto-1 {
+      font-size: 16px; } }
 
 .texto-small {
-  font-size: .75rem; }
+  font-size: 12px; }
+  @media (min-width: 992px) {
+    .texto-small {
+      font-size: 14px; } }
 
 .citacao-autor {
-  color: #4B77BE;
+  color: #F16A58;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1.5rem;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 1.5; }
+  line-height: 1.5;
+  text-shadow: 1px 1px #28324E; }
+  @media (min-width: 992px) {
+    .citacao-autor {
+      font-size: 20px; } }
 
 .citacao-descricao {
-  color: #404040;
-  font-family: "Work Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: .75rem;
+  color: #4B77BE;
+  font-family: "Karla", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.5; }
+  @media (min-width: 992px) {
+    .citacao-descricao {
+      font-size: 12px; } }
 
-.botao-1 {
-  background: #F16A58;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: white;
+.botao {
+  border-radius: 0;
   display: block;
-  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1rem;
+  font-family: "Karla", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
   font-weight: 700;
-  padding: .75rem 3rem;
+  margin: 0 auto;
+  padding: 12px 24px;
   transition: 200ms;
   text-align: center; }
-  .botao-1:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    color: white;
-    text-decoration: none;
-    transition: 200ms; }
   @media (min-width: 992px) {
-    .botao-1 {
-      display: inline-block;
-      font-size: 1.25rem; } }
+    .botao {
+      font-size: 20px; } }
+  .botao:hover {
+    background-color: #F4F3B9;
+    color: #28324E;
+    text-decoration: none; }
+  .botao-1 {
+    background-color: #F16A58;
+    border: 1px solid #28324E;
+    box-shadow: 3px 3px #28324E;
+    color: white; }
+  .botao-2 {
+    background-color: white;
+    border: 1px solid #28324E;
+    box-shadow: 3px 3px #28324E;
+    color: #F16A58; }
+  .botao-small {
+    font-size: 1rem;
+    padding: .5rem 2rem; }
 
-.botao-2 {
-  background: #F4F3B9;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #4B77BE;
-  display: block;
-  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  padding: .75rem 3rem;
-  transition: 200ms;
-  text-align: center; }
-  .botao-2:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    color: #4B77BE;
-    text-decoration: none;
-    transition: 200ms; }
-  @media (min-width: 992px) {
-    .botao-2 {
-      display: inline-block;
-      font-size: 1.25rem; } }
-
-.botao-small {
-  font-size: 1rem;
-  padding: .5rem 2rem; }
-
-.imagem-1 {
+.cover {
+  box-shadow: 3px 3px #28324E;
   display: block;
   height: auto;
   margin: 0 auto;
-  max-width: 100%; }
+  max-width: 200px; }
+  .cover-author {
+    max-width: 240px; }
+  .cover-magnet {
+    max-width: 280px; }
+  .cover-block {
+    max-width: 100%; }
 
 .carta {
   background: white;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 3px 3px #28324E;
   height: 100%;
-  padding: 2rem;
+  padding: 32px 24px;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-content: space-around; }
 
 @media (min-width: 992px) {
+  .spacer {
+    display: block;
+    height: 100%; } }
+@media (min-width: 992px) {
   .flex {
     align-items: center;
     display: flex;
     justify-content: space-between; } }
-.fixed {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 9999; }
-
-@media (min-width: 992px) {
-  .spacer {
-    display: block;
-    height: 100%; } }
 .cabecalho {
   background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1rem 0; }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 16px 0; }
 
 .letreiro {
-  background: white;
-  background: url(../images/bg-hero@1x.png);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
+  background: url(../images/cover-masonry.png), linear-gradient(to right, #f8fcff 0%, #ffffff 100%);
+  background-size: cover;
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .letreiro {
+      padding: 160px 0; } }
 
 .sinopse01 {
-  background: url(../images/bg-pttrn-01@1x.png);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .sinopse01 {
+      padding: 96px 0; } }
 
 .sinopse02 {
-  background: url(../images/bg-pttrn-01@1x.png);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .sinopse02 {
+      padding: 96px 0; } }
 
 .sinopse03 {
-  background: url(../images/bg-pttrn-01@1x.png);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .sinopse03 {
+      padding: 96px 0; } }
 
 .cta {
   background: linear-gradient(to right, #5AA5AC 0%, #E7EBE3 100%);
-  padding: 5rem 0; }
+  padding: 64px 0; }
   .cta .titulo-2 {
     color: white; }
   @media (min-width: 992px) {
     .cta {
+      padding: 96px 0;
       text-align: center; } }
 
 .depoimentos {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5rem 0; }
+  background: linear-gradient(to right, #f8fcff 0%, #ffffff 100%);
+  padding: 64px 0; }
   @media (min-width: 992px) {
     .depoimentos {
+      padding: 96px 0;
       text-align: center; } }
 
 .autor {
-  padding: 5rem 0; }
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .autor {
+      padding: 96px 0; } }
 
 .rodape {
   background: linear-gradient(to right, #F16A58 0%, #F4F3B9 100%);
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1rem 0; }
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 16px 0; }
   .rodape .texto-1 {
     color: white; }
-
-.email {
-  background: white !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  border-radius: 4px !important;
-  color: #404040 !important;
-  font-family: "Work Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 400 !important;
-  height: auto !important;
-  padding: 1rem !important; }
-  .email::placeholder {
-    color: #4B77BE !important; }
-
-.button {
-  background: #F16A58 !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  border-radius: 4px !important;
-  box-sizing: border-box !important;
-  color: white !important;
-  display: block !important;
-  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 700 !important;
-  height: auto !important;
-  padding: .75rem 1.5rem !important;
-  transition: 200ms !important;
-  text-align: center !important; }
-  .button:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2) !important;
-    color: white !important;
-    text-decoration: none !important;
-    transition: 200ms !important; }
-  @media (min-width: 992px) {
-    .button {
-      display: inline-block !important; } }
 
 /*# sourceMappingURL=website.css.map */

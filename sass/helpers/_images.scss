@@ -1,0 +1,22 @@
+// images.scss
+
+.cover {
+    // border: 1px solid $dark;
+    box-shadow: 3px 3px $dark;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 200px;
+
+    &-author {
+        max-width: 240px;
+    }
+
+    &-magnet {
+        max-width: 280px;
+    }
+
+    &-block {
+        max-width: 100%;
+    }
+}
