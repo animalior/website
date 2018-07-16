@@ -1,51 +1,28 @@
 // variables.scss
 
-$laranja: #F16A58;
-$amarelo: #F4F3B9;
+// colors
 
-$ciano: #5AA5AC;
-$cinza: #E7EBE3;
+$laranja: #f16a58;
+$amarelo: #f4f3b9;
 
-$azul: #4B77BE;
+$ciano: #5aa5ac;
+$cinza: #e7ebe3;
+
+$azul: #4b77be;
 $grafite: #404040;
 
-$light: #F1F4F8;
-$dark: #28324E;
+// $light: #f0f8ff;
+$light: #dfefff;
+$dark: #28324e;
 
-$sans: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-$mountains: 'Mountains of Christmas', $sans;
-$archivo: 'Archivo', $sans;
-$karla: 'Karla', $sans;
-$roboto: 'Roboto', $sans;
-$roboto-condensed: 'Roboto Condensed', $sans;
-$rubik: 'Rubik', $sans;
-$source-sans: 'Source Sans Pro', $sans;
-$work-sans: 'Work Sans', $sans;
-
-$heading: $mountains;
-$body: $source-sans;
-
-// Colors
-$ca-1: $laranja;
-$ca-2: $amarelo;
-$ca-3: $ciano;
-$ca-4: $cinza;
-$cb-l: $light;
-$cb-d: $dark;
-$cf-1: $azul;
-$cf-2: $grafite;
-$cg-1: linear-gradient(to right, $ca-1 0%, $ca-2 100%);
-$cg-2: linear-gradient(to right, $ca-3 0%, $ca-4 100%);
-$cg-3: linear-gradient(to right, white 0%, $light 100%);
-$cg-4: linear-gradient(to right, $light 0%, white 100%);
+// gradients
 
 $gradient-1: linear-gradient(to right, $laranja 0%, $amarelo 100%);
 $gradient-2: linear-gradient(to right, $azul 0%, $laranja 100%);
-$gradient-3: linear-gradient(to right, #f0f8ff 0%, #ffffff 100%);
+$gradient-3: linear-gradient(to right, $light 0%, white 100%);
 
-// Fonts
-$ff-1: $mountains;
-$ff-2: $work-sans;
+// fonts
+
 $thin: 100;
 $extra-light: 200;
 $light: 300;
@@ -55,17 +32,13 @@ $semi-bold: 600;
 $bold: 700;
 $extra-bold: 800;
 $black: 900;
-$lh-1: 1;
-$lh-2: 1.2;
-$lh-3: 1.5;
 
-// Borders
-$bd-1: 1px solid $cb-d;
-$br-1: 4px;
+$sans: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
-// Spacings
-$xs: 1rem;
-$sm: 2rem;
-$md: 3rem;
-$lg: 4rem;
-$xl: 5rem;
+$mountains: 'Mountains of Christmas', $sans;
+
+$source-sans: 'Source Sans Pro', $sans;
+$work-sans: 'Work Sans', $sans;
+
+$heading: $mountains;
+$body: $source-sans;
