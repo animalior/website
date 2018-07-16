@@ -55,14 +55,14 @@
 .botao-1 {
   background: #F16A58;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.25rem;
+  border-radius: 4px;
   box-sizing: border-box;
   color: white;
   display: block;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  padding: .75rem 1.5rem;
+  padding: .75rem 3rem;
   transition: 200ms;
   text-align: center; }
   .botao-1:hover {
@@ -73,19 +73,19 @@
   @media (min-width: 992px) {
     .botao-1 {
       display: inline-block;
-      font-size: 1.5rem; } }
+      font-size: 1.25rem; } }
 
 .botao-2 {
   background: #F4F3B9;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.25rem;
+  border-radius: 4px;
   box-sizing: border-box;
   color: #4B77BE;
   display: block;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  padding: .75rem 1.5rem;
+  padding: .75rem 3rem;
   transition: 200ms;
   text-align: center; }
   .botao-2:hover {
@@ -96,11 +96,11 @@
   @media (min-width: 992px) {
     .botao-2 {
       display: inline-block;
-      font-size: 1.5rem; } }
+      font-size: 1.25rem; } }
 
 .botao-small {
   font-size: 1rem;
-  padding: .5rem 1rem; }
+  padding: .5rem 2rem; }
 
 .imagem-1 {
   display: block;
@@ -111,7 +111,7 @@
 .carta {
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.25rem;
+  border-radius: 4px;
   height: 100%;
   padding: 2rem;
   text-align: left;
