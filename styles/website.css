@@ -94,9 +94,6 @@
     max-width: 280px;
     width: 100%; }
 
-.logo {
-  text-shadow: 1px 1px #28324E; }
-
 .cover {
   box-shadow: 3px 3px #E7EBE3;
   display: block;
@@ -131,6 +128,7 @@
     justify-content: space-between; } }
 .hero {
   background: url(../images/cover-masonry.png), linear-gradient(to right, #f0f8ff 0%, #ffffff 100%);
+  background-position: center center;
   background-size: cover;
   padding: 64px 0; }
   @media (min-width: 992px) {
