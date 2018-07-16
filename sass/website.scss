@@ -1,7 +1,7 @@
-// animalior.com
+// website.scss
+
 @import "helpers/variables";
 @import "helpers/components";
-@import "helpers/animations";
 
 .cabecalho {
     background: $cg-1;
@@ -54,7 +54,7 @@
 }
 
 .depoimentos {
-    background: url(../images/bg-pttrn-01@1x.png);
+    // background: url(../images/bg-pttrn-01@1x.png);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding: $xl 0;
 
@@ -64,7 +64,7 @@
 }
 
 .autor {
-    background: url(../images/bg-pttrn-01@1x.png);
+    // background: url(../images/bg-pttrn-01@1x.png);
     padding: $xl 0;
 }
 
