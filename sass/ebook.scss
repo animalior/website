@@ -1,7 +1,10 @@
-// animalior.com
+// animalior.com, ebook.scss
+
 @import "helpers/variables";
+@import "helpers/typography";
+@import "helpers/buttons";
+@import "helpers/images";
 @import "helpers/components";
-@import "helpers/animations";
 
 @media (min-width: 992px) {
   html, body {
@@ -10,12 +13,12 @@
 }
 
 .letreiro {
-  background: $cg-1;
+  background: $gradient-1;
   height: 100%;
-  padding: $xl 0;
+  padding: 96px 0;
 
   .titulo-1 {
-    color: $cb-d;
+    color: $grey-dark;
   }
 }
 

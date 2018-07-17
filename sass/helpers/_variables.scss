@@ -12,14 +12,14 @@ $azul: #4b77be;
 $grafite: #404040;
 
 // $light: #f0f8ff;
-$light: #dfefff;
-$dark: #28324e;
+$grey-light: #dfefff;
+$grey-dark: #28324e;
 
 // gradients
 
 $gradient-1: linear-gradient(to right, $laranja 0%, $amarelo 100%);
 $gradient-2: linear-gradient(to right, $azul 0%, $laranja 100%);
-$gradient-3: linear-gradient(to right, $light 0%, white 100%);
+$gradient-3: linear-gradient(to right, $grey-light 0%, white 100%);
 
 // fonts
 

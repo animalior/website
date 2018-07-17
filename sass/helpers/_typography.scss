@@ -6,7 +6,7 @@
     font-size: 32px;
     font-weight: $bold;
     line-height: 1.4;
-    text-shadow: 1px 1px $dark;
+    text-shadow: 1px 1px $grey-dark;
 
     @media (min-width: 992px) {
         font-size: 40px;
@@ -19,7 +19,7 @@
     font-size: 24px;
     font-weight: $bold;
     line-height: 1.4;
-    text-shadow: 1px 1px $dark;
+    text-shadow: 1px 1px $grey-dark;
 
     @media (min-width: 992px) {
         font-size: 32px;
@@ -27,7 +27,7 @@
 }
 
 .texto-1 {
-    color: $dark;
+    color: $grey-dark;
     font-family: $body;
     font-weight: $regular;
     line-height: 1.6;
@@ -52,7 +52,7 @@
     font-size: 20px;
     font-weight: $bold;
     line-height: 1.5;
-    text-shadow: 1px 1px $dark;
+    text-shadow: 1px 1px $grey-dark;
 
     @media (min-width: 992px) {
         font-size: 24px;

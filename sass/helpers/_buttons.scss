@@ -23,8 +23,8 @@
 
     &-1 {
         background-color: $laranja;
-        border: 1px solid $dark;
-        box-shadow: 3px 3px $dark;
+        border: 1px solid $grey-dark;
+        box-shadow: 3px 3px $grey-dark;
         color: white;
 
         &:hover {
@@ -35,13 +35,13 @@
 
     &-2 {
         background-color: white;
-        border: 1px solid $dark;
-        box-shadow: 3px 3px $dark;
-        color: $dark;
+        border: 1px solid $grey-dark;
+        box-shadow: 3px 3px $grey-dark;
+        color: $grey-dark;
 
         &:hover {
             background-color: $amarelo;
-            color: $dark;
+            color: $grey-dark;
         }
     }
 

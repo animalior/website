@@ -96,7 +96,7 @@
     width: 100%; }
 
 .cover {
-  box-shadow: 3px 3px #e7ebe3;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
   display: block;
   height: auto;
   margin: 0 auto;
@@ -104,13 +104,16 @@
   .cover-author {
     max-width: 240px; }
   .cover-magnet {
-    max-width: 280px; }
+    max-width: 200px; }
+    @media (min-width: 992px) {
+      .cover-magnet {
+        max-width: 280px; } }
   .cover-block {
     max-width: 100%; }
 
 .carta {
   background: white;
-  box-shadow: 3px 3px #e7ebe3;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
   height: 100%;
   padding: 32px;
   text-align: left;
@@ -166,7 +169,7 @@
       padding: 96px 0; } }
 
 .testimonials {
-  background: linear-gradient(to right, #dfefff 0%, white 100%);
+  background: #dfefff;
   padding: 64px 0; }
   @media (min-width: 992px) {
     .testimonials {
@@ -181,7 +184,6 @@
 
 .footer {
   background: #4b77be;
-  border-top: 1px solid rgba(0, 0, 0, 0.16);
   padding: 16px 0; }
   .footer .texto-1 {
     color: white; }
