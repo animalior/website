@@ -129,7 +129,7 @@
     justify-content: space-between; } }
 .hero {
   background: url(../images/cover-masonry.png), linear-gradient(to right, #dfefff 0%, white 100%);
-  background-position: center center;
+  background-position: left center;
   background-size: cover;
   padding: 64px 0; }
   @media (min-width: 992px) {
