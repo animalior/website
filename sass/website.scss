@@ -6,9 +6,20 @@
 @import "helpers/images";
 @import "helpers/components";
 
+.header {
+    background: $gradient-1;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 16px 0;
+
+    .texto-1 {
+        color: white;
+    }
+}
+
+
 .hero {
-    background: url(../images/cover-masonry.png), $gradient-3;
-    background-position: left center;
+    background: url(../images/bg-hero@1x.png), $gradient-3;
+    background-position: center center;
     background-size: cover;
     padding: 64px 0;
 
@@ -17,7 +28,8 @@
     }
 }
 
-.book-01 {
+.char-01 {
+    background: white;
     border-bottom: 1px solid rgba(0, 0, 0, .04);
     padding: 64px 0;
 
@@ -26,7 +38,8 @@
     }
 }
 
-.book-02 {
+.char-02 {
+    background: $grey-light;
     border-bottom: 1px solid rgba(0, 0, 0, .04);
     padding: 64px 0;
 
@@ -35,8 +48,18 @@
     }
 }
 
-.book-03 {
-    // border-bottom: 1px solid rgba(0, 0, 0, .04);
+.char-03 {
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, .04);
+    padding: 64px 0;
+
+    @media (min-width: 992px) {
+        padding: 96px 0;
+    }
+}
+
+.char-04 {
+    background: $grey-light;
     padding: 64px 0;
 
     @media (min-width: 992px) {
@@ -57,17 +80,47 @@
     }
 }
 
+.book-01 {
+    background: $gradient-1;
+    border-bottom: 1px solid rgba(0, 0, 0, .04);
+    padding: 64px 0;
+
+    @media (min-width: 992px) {
+        padding: 96px 0;
+    }
+}
+
+.book-02 {
+    background: $gradient-2;
+    border-bottom: 1px solid rgba(0, 0, 0, .04);
+    padding: 64px 0;
+
+    @media (min-width: 992px) {
+        padding: 96px 0;
+    }
+}
+
+.book-03 {
+    background: $gradient-1;
+    // border-bottom: 1px solid rgba(0, 0, 0, .04);
+    padding: 64px 0;
+
+    @media (min-width: 992px) {
+        padding: 96px 0;
+    }
+}
+
 .testimonials {
     background: $grey-light;
     padding: 64px 0;
 
     @media (min-width: 992px) {
         padding: 96px 0;
-        text-align: center;
     }
 }
 
 .author {
+    background: $gradient-2;
     padding: 64px 0;
 
     @media (min-width: 992px) {
@@ -76,7 +129,9 @@
 }
 
 .footer {
-    background: $azul;
+    // background: $azul;
+    background: $gradient-1;
+    border-top: 1px solid rgba(0, 0, 0, .1);
     padding: 16px 0;
 
     .texto-1 {

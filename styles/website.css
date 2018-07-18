@@ -1,34 +1,34 @@
 .titulo-1 {
-  color: #f16a58;
+  color: #4b77be;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.4;
   text-shadow: 1px 1px #28324e; }
   @media (min-width: 992px) {
     .titulo-1 {
-      font-size: 40px; } }
+      font-size: 32px; } }
 
 .titulo-2 {
-  color: #f16a58;
+  color: #4b77be;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.4;
   text-shadow: 1px 1px #28324e; }
   @media (min-width: 992px) {
     .titulo-2 {
-      font-size: 32px; } }
+      font-size: 24px; } }
 
 .texto-1 {
   color: #28324e;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  font-size: 16px; }
+  font-size: 12px; }
   @media (min-width: 992px) {
     .texto-1 {
-      font-size: 20px; } }
+      font-size: 16px; } }
 
 .texto-small {
   font-size: 12px; }
@@ -36,8 +36,11 @@
     .texto-small {
       font-size: 14px; } }
 
+.texto-white {
+  color: white; }
+
 .citacao-autor {
-  color: #f16a58;
+  color: #4b77be;
   font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -48,7 +51,7 @@
       font-size: 24px; } }
 
 .citacao-descricao {
-  color: #4b77be;
+  color: #f16a58;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -58,10 +61,10 @@
       font-size: 14px; } }
 
 .botao {
-  border-radius: 0;
+  border-radius: 100px;
   display: inline-block;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 800;
   line-height: 1;
   margin: 0 auto;
@@ -71,49 +74,46 @@
   text-transform: uppercase; }
   @media (min-width: 992px) {
     .botao {
-      font-size: 20px; } }
+      font-size: 16px; } }
   .botao:hover {
     text-decoration: none; }
   .botao-1 {
     background-color: #f16a58;
-    border: 1px solid #28324e;
-    box-shadow: 3px 3px #28324e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: white; }
     .botao-1:hover {
       background-color: #4b77be;
       color: white; }
   .botao-2 {
     background-color: white;
-    border: 1px solid #28324e;
-    box-shadow: 3px 3px #28324e;
-    color: #28324e; }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #f16a58; }
     .botao-2:hover {
-      background-color: #f4f3b9;
-      color: #28324e; }
+      background-color: white;
+      color: #4b77be; }
   .botao-small {
     font-size: 16px;
     max-width: 280px;
     width: 100%; }
+  .botao-block {
+    display: block; }
 
 .cover {
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
   display: block;
   height: auto;
   margin: 0 auto;
-  max-width: 200px; }
+  max-width: 100%; }
   .cover-author {
-    max-width: 240px; }
+    max-width: 100%; }
   .cover-magnet {
-    max-width: 200px; }
-    @media (min-width: 992px) {
-      .cover-magnet {
-        max-width: 280px; } }
+    max-width: 100%; }
   .cover-block {
     max-width: 100%; }
 
 .carta {
   background: white;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   height: 100%;
   padding: 32px;
   text-align: left;
@@ -130,33 +130,57 @@
     align-items: center;
     display: flex;
     justify-content: space-between; } }
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
+.header {
+  background: linear-gradient(to right, #f16a58 0%, #f4f3b9 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 0; }
+  .header .texto-1 {
+    color: white; }
+
 .hero {
-  background: url(../images/cover-masonry.png), linear-gradient(to right, #dfefff 0%, white 100%);
-  background-position: left center;
+  background: url(../images/bg-hero@1x.png), linear-gradient(to right, #dfefff 0%, white 100%);
+  background-position: center center;
   background-size: cover;
   padding: 64px 0; }
   @media (min-width: 992px) {
     .hero {
       padding: 160px 0; } }
 
-.book-01 {
+.char-01 {
+  background: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   padding: 64px 0; }
   @media (min-width: 992px) {
-    .book-01 {
+    .char-01 {
       padding: 96px 0; } }
 
-.book-02 {
+.char-02 {
+  background: #dfefff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   padding: 64px 0; }
   @media (min-width: 992px) {
-    .book-02 {
+    .char-02 {
       padding: 96px 0; } }
 
-.book-03 {
+.char-03 {
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   padding: 64px 0; }
   @media (min-width: 992px) {
-    .book-03 {
+    .char-03 {
+      padding: 96px 0; } }
+
+.char-04 {
+  background: #dfefff;
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .char-04 {
       padding: 96px 0; } }
 
 .cta {
@@ -168,22 +192,46 @@
     .cta {
       padding: 96px 0; } }
 
+.book-01 {
+  background: linear-gradient(to right, #f16a58 0%, #f4f3b9 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .book-01 {
+      padding: 96px 0; } }
+
+.book-02 {
+  background: linear-gradient(to right, #5aa5ac 0%, #e7ebe3 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .book-02 {
+      padding: 96px 0; } }
+
+.book-03 {
+  background: linear-gradient(to right, #f16a58 0%, #f4f3b9 100%);
+  padding: 64px 0; }
+  @media (min-width: 992px) {
+    .book-03 {
+      padding: 96px 0; } }
+
 .testimonials {
   background: #dfefff;
   padding: 64px 0; }
   @media (min-width: 992px) {
     .testimonials {
-      padding: 96px 0;
-      text-align: center; } }
+      padding: 96px 0; } }
 
 .author {
+  background: linear-gradient(to right, #5aa5ac 0%, #e7ebe3 100%);
   padding: 64px 0; }
   @media (min-width: 992px) {
     .author {
       padding: 96px 0; } }
 
 .footer {
-  background: #4b77be;
+  background: linear-gradient(to right, #f16a58 0%, #f4f3b9 100%);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 16px 0; }
   .footer .texto-1 {
     color: white; }
