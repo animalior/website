@@ -1,22 +1,9 @@
 // typography.scss
 
 .titulo-1 {
-    color: $laranja;
+    color: $azul;
     font-family: $heading;
-    font-size: 32px;
-    font-weight: $bold;
-    line-height: 1.4;
-    text-shadow: 1px 1px $grey-dark;
-
-    @media (min-width: 992px) {
-        font-size: 40px;
-    }
-}
-
-.titulo-2 {
-    color: $laranja;
-    font-family: $heading;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: $bold;
     line-height: 1.4;
     text-shadow: 1px 1px $grey-dark;
@@ -26,15 +13,28 @@
     }
 }
 
+.titulo-2 {
+    color: $azul;
+    font-family: $heading;
+    font-size: 20px;
+    font-weight: $bold;
+    line-height: 1.4;
+    text-shadow: 1px 1px $grey-dark;
+
+    @media (min-width: 992px) {
+        font-size: 24px;
+    }
+}
+
 .texto-1 {
     color: $grey-dark;
     font-family: $body;
     font-weight: $regular;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 12px;
 
     @media (min-width: 992px) {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -46,8 +46,12 @@
     }
 }
 
+.texto-white {
+    color: white;
+}
+
 .citacao-autor {
-    color: $laranja;
+    color: $azul;
     font-family: $heading;
     font-size: 20px;
     font-weight: $bold;
@@ -60,7 +64,7 @@
 }
 
 .citacao-descricao {
-    color: $azul;
+    color: $laranja;
     font-family: $body;
     font-size: 12px;
     font-weight: $regular;
